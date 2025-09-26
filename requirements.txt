@@ -3,5 +3,6 @@ pandas==2.2.2
 numpy==1.26.4
 dvc==3.63.0
 mlflow==2.8.0
+dagshub
 seaborn
 matplotlib
