@@ -22,6 +22,7 @@ y = iris['target']
 tracking_uri = os.environ.get("MLFLOW_TRACKING_URI")
 mlflow.set_tracking_uri(tracking_uri)
 
+# Iniciar una nueva ejecución de MLflow
 with mlflow.start_run():
     # Dividir los datos en conjuntos de entrenamiento y prueba
     X_train, X_test, y_train, y_test = train_test_split(
