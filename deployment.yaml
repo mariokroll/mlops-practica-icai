@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mlops-api
-        image: gcr.io/mariokroll/mlops-api:latest # <--- Reemplaza con la ruta de tu imagen
+        image: gcr.io/102226716884484789053/mlops-api:latest # <--- Reemplaza con la ruta de tu imagen
         ports:
         - containerPort: 5000
